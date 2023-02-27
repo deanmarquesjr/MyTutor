@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="50dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/txtMath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMathInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math_description"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnMath"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="26dp"
+        android:text="@string/go_to_math_appointments"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtCompSci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/computer_science"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCSInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cs_description"
+        android:textAlignment="inherit"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCompSci"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/go_to_computer_science_appointments"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appointment_len"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/backToHP" />
+
+</LinearLayout>
